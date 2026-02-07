@@ -23,7 +23,7 @@ export default function Home() {
     try {
       console.log('Calling API with:', repoUrl)
 
-      const response = await fetch('http://localhost:8000/analyze', {
+      const response = await fetch('https://web-production-8cee1.up.railway.app/analyze', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
